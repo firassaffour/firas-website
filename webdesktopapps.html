@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firas Website</title>
+    <link rel="stylesheet" href="webStyle.css">
+    <link rel="stylesheet" href="webstylemobile.css">
+</head>
+<body>
+    <header class="header">
+        <a href="webHome.html" class="logo">Firas</a>
+        <nav class="navbar"> 
+            <ul id="nav-links">
+                <li class="nav-link">
+                 <a href="webHome.html">Home</a>
+                </li>
+                <li class="nav-link">
+                 <a href="webAbout.html">About</a>
+                </li>
+                <li class="nav-linkServices">
+                 <summary> Services </summary>
+                 <ul class="drop-down">
+                  <li><a href="webmobileapps.html">Mobile apps</a></li>
+                  <li><a href="webdesktopapps.html">Desktop apps</a></li>
+                 </ul>
+                </li>
+                <li class="nav-link">
+                  <a href="webContactus.html" id="contactusid">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+        <button href="webSignup.html" id="buttomSignup" onclick="signUppage()">Sign Up</button>
+        <img src="menuicon.png" alt="menu" id="menuicon" onclick="showmenu()">
+    </header>
+    <h1 id="desktoppageh1">Our Desktop Applications</h1>
+    <p id="desktoppagep">Here you can find our Desktop apps and you can try them</p>
+    <div id="desktopappsdiv1">
+        <img src="login.jpg" alt="app1" id="desktopapp1img">
+        <h2 id="desktopapp1h2">Task Manager</h2>
+        <p id="desktopapp1p">Task manager made with java</p>
+        <a href="Task Manager.rar" download="Task Manager.rar" id="desktopapp1button">Try Now</a>
+    </div>
+    <div id="desktopappsdiv2">
+        <img src="emptydesktopapp.png" alt="app1" id="desktopapp2img">
+        <h2 id="desktopapp2h2">Empty app</h2>
+        <p id="desktopapp2p">there is no application for now</p>
+        <a href="" id="desktopapp2button">Try Now</a>
+    </div>
+    <div id="desktopappsdiv3">
+        <img src="emptydesktopapp.png" alt="app1" id="desktopapp3img">
+        <h2 id="desktopapp3h2">Empty app</h2>
+        <p id="desktopapp3p">there is no application for now</p>
+        <a href="" id="desktopapp3button">Try Now</a>
+    </div>
+    <script src="webMain.js"></script>
+</body>
+</html>

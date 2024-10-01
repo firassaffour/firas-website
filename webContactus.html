@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firas Website</title>
+    <link rel="stylesheet" href="webStyle.css">
+    <link rel="stylesheet" href="webstylemobile.css">
+</head>
+<body style="min-height: 190vh;">
+    <header class="header">
+        <a href="webHome.html" class="logo">Firas</a>
+        <nav class="navbar"> 
+            <ul id="nav-links">
+                <li class="nav-link">
+                 <a href="webHome.html">Home</a>
+                </li>
+                <li class="nav-link">
+                 <a href="webAbout.html">About</a>
+                </li>
+                <li class="nav-linkServices">
+                 <summary> Services </summary>
+                 <ul class="drop-down">
+                  <li><a href="webmobileapps.html">Mobile apps</a></li>
+                  <li><a href="webdesktopapps.html">Desktop apps</a></li>
+                 </ul>
+                </li>
+                <li class="nav-link">
+                  <a href="webContactus.html" id="contactusid">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+        <button href="webSignup.html" id="buttomSignup" onclick="signUppage()">Sign Up</button>
+        <img src="menuicon.png" alt="menu" id="menuicon" onclick="showmenu()">
+    </header>
+    <div class="social">
+        <h1 class="socialLabel">Social media</h1>
+        <h1 class="phoneLabel">Phone</h1>
+        <h1 class="phone">+201158236715</h1>
+        <a href="www.facebook.com" class="facebook"><img src="facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/" class="insta"><img src="insta.jpg" alt="instagram"></a>
+        <a href="www.x.com" class="x"><img src="x.png" alt="x"></a>
+    </div>
+    <form id="Emaildiv" action="https://formsubmit.co/last.gameee@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
+        <h1 class="emailLabel">Email</h1>
+        <input type="email" placeholder="Your Email" id="youremail" name="email">
+        <input type="text" name="subject" style="display:none" value="FeedBack">
+        <textarea id="messageArea" name="message" cols="33" rows="6" placeholder="Your Message"></textarea>
+        <button id="sendMessage" type="submit">Send</button>
+    </form>
+    <script src="webMain.js"></script>
+    
+</body>
+</html>

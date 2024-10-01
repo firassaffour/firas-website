@@ -1,0 +1,162 @@
+@media (max-width: 600px){
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popping", sans-serif;
+}
+html{
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+body{
+    overflow: scroll;
+    min-height: 100vh;
+    height: -webkit-fill-available;
+    max-width: fit-content;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    background: #9e6fca no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.header{
+    flex: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    right: 70px;
+    bottom: 0px;
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom right , rgb(190, 88, 88),rgb(226, 157, 226),rgb(145, 145, 219),rgb(129, 173, 129));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#nav-links{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background: #e190f5;
+    gap: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    width: 490px;
+    height: 550px;
+}
+.nav-link{
+    padding: 20px;
+    font-weight: 800;
+}
+#contactusid{
+bottom: 0px;
+text-align: center;
+}
+summary{
+    font-weight: 800;
+    padding: 20px;
+}
+.drop-down{
+background: transparent;
+left: 300px;
+bottom: 120px;
+}
+.nav-linkServices a{
+    padding: 0px;
+    right: 10px;
+    font-weight: 800;
+}
+#menuicon{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    left: 430px;
+}
+#firstH1{
+    color: #ffffff;
+    position: relative;
+    left: 70px;
+    top: 190px;
+    }
+    #firstLabel{
+    font-weight: bold;
+    position: relative;
+    font-size: large;
+    left: 70px;
+    top: 220px;
+    }
+    .buttom{
+    
+        text-decoration: none;
+        color: #ffffff;
+        border: rgb(141, 3, 156) 3px solid;
+        padding: 12px 34px;
+        top: 300px;
+        left: 180px;
+        width: 120px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+        border-radius: 0.5rem;
+    }
+    .button:active{
+        transform: scale(0.96);
+        color: #ffffff;
+    }
+    .buttom:hover{
+        border: 3px solid rgb(118, 2, 131) ;
+        background: purple;
+        transition: 1s;
+    }
+    #buttomSignup{
+        right: 95px;
+        top: 320px;
+        width: 120px;
+        display: none;
+
+    }
+
+/*ssssssssssssssssssssssssssssssssssssss CONTACT US PAGE sssssssssssssssssssssssssssssssssssssss*/
+
+.social{
+    position: relative;
+    top: 200px;
+    right: 500px;
+    
+    
+}
+/*ssssssssssssssssssssssssssssssssssssss SIGN UP PAGE sssssssssssssssssssssssssssssssssssssss*/
+
+
+/*ssssssssssssssssssssssssssssssssssssss ABOUT PAGE sssssssssssssssssssssssssssssssssssssss*/
+
+/*ssssssssssssssssssssssssssssssssssssss MOBILE APPS PAGE sssssssssssssssssssssssssssssssssssssss*/
+
+#mobilepageh1{
+right: 0px;
+bottom: 0px;
+}
+
+/*ssssssssssssssssssssssssssssssssssssss DESKTOP APPS PAGE sssssssssssssssssssssssssssssssssssssss*/
+}
