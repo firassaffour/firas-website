@@ -830,7 +830,6 @@ top: 190px;
         position: absolute;
         cursor: pointer;
         border-radius: 0.5rem;
-        pointer-events: none;
     }
     #desktoppp2button:active{
         transform: scale(0.96);
